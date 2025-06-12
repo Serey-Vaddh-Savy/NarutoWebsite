@@ -1,6 +1,8 @@
 # NarutoWebsite
 
 Naruto-Slide Transition:
+
+When the seal is clicked, a gif will be dsiplayed in response and the introduction slide will appear after a smooth gif transition.
 ![image](https://github.com/user-attachments/assets/ee7d3864-d914-45a6-95a3-6c1dbc2a12ab)
 ![image](https://github.com/user-attachments/assets/3f1fec0a-416a-438c-8258-ce744cfb9633)
 ![image](https://github.com/user-attachments/assets/17926329-1dda-48e0-b426-ac899e95589c)
