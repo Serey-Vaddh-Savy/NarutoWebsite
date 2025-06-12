@@ -1,0 +1,235 @@
+html,body, head{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 3500px;
+}
+
+div{
+    margin: 0px;
+    padding: 0px;
+}
+
+#header img{
+    width: 100%;
+    padding: 0px;
+    display: block;
+}
+
+#displayBlack{
+    
+    display: flex;
+    width: 100%;
+    height: 210px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    font-size: 50px;
+    border-bottom: 1px solid white;
+}
+
+#displayBlack h2{
+    padding-left: 20px;
+}
+
+
+.displaySharingan{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 9%;
+    background-color: #881313;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+.displaySharingan img{
+    height: 25vh;
+    animation-name: spin;
+    animation-duration: 3000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+@keyframes shake {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(120deg);
+    }
+}
+
+
+
+
+.displaySharingan img:hover{
+    animation-duration: 300ms;
+    
+}
+
+#displayNaruto{
+    display: flex;
+    width: 100%;
+    height: 780px;
+    background-color: #0B0B0B;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 2s;
+}
+
+
+
+#narutoSeal{
+    display: block;
+    border-radius: 100%;
+    height: 30vw;
+    width: auto;
+    transition: transform 0.3s;
+
+}
+
+#narutoSeal:hover{
+    transform: scale(1.1);
+}
+
+#displaySasuke{
+    padding: 0px;
+
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-color: #123360;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+#displaySasuke img {
+    border-radius: 100%;
+    height: 20vw;
+    width: auto;
+    transition: 1s;
+    animation-name: shake;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    
+}
+
+#displaySasuke img:hover{
+    
+    animation-name: spin;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    
+}
+#displaySasuke:has(img:hover) {
+    background-color: rgb(109, 11, 11);
+   
+    
+}
+
+#displaySakura{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-color: #FBB7DD;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+
+
+#displaySakura img {
+    border-radius: 100%;
+    height: 20vw;
+    width: auto;
+    transition: 1s;
+}
+
+#displaySakura img:hover{
+    rotate: 60deg;
+    
+}
+
+#displaySasuke img.sasuke-gif-reset {
+    all: unset;
+    display: block;
+    height: 500px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    background: none;
+    animation: none;
+    transition: none;
+    
+}
+
+.characterSummary{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+
+
+.characterSummary h2{
+    margin-top: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 50px;
+    padding-bottom: 0px;
+}
+
+.characterSummary p{
+    margin-top: 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    
+    
+}
+
+.picContainer{
+
+    margin: auto;
+    margin-bottom: 50px;
+    height: auto;
+    width: auto;
+    
+}
+
+
+
+
+@media screen and (min-width: 1000px){
+    .sasuke-gif-reset{
+        display: none;
+    }
+}
