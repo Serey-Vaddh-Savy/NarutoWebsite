@@ -1,4 +1,6 @@
 # NarutoWebsite
+This website was created on behalf on my love for Naruto and its series. It tells the story of each character of the Team 7. Work are still under way for the character of Sakura.
+
 
 Naruto-Slide Transition:
 
